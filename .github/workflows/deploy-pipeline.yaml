@@ -48,7 +48,7 @@ jobs:
           name: zipped-bundle
           path: ${{ github.sha }}.zip
 
-publish:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
